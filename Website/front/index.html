@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SmartCurtains</title>
+        <meta name="description" content="This is my HTML5 boilerplate.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="msapplication-TileColor" content="#3385FF">
+        <meta name="theme-color" content="#3385FF">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/screen.css">
+
+        <script src="script/dataHandler.js"></script>
+        <script src="script/app-index.js"></script>
+    </head>
+    <body>
+        <div class="c-page">
+        <header class="o-row">
+            <div class="o-container">
+                <div class="c-header">
+                    <div class="c-header__logo">
+                        <a href="index.html"><h1 class="c-logo">
+                            SmartCurtains
+                        </h1></a>
+                    </div>
+                    <div class="c-header__nav">
+                        <nav class="c-nav">
+                            <ul class="o-list c-nav__list">
+                                <li class="c-nav__item"><a href="index.html" class="c-nav__link">Dashboard</a></li>
+                                <li class="c-nav__item"><a href="Historiek.html" class="c-nav__link">Historiek</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="o-row o-row--intro">
+            <div class="o-container">
+                <div class="c-intro o-layout o-layout--gutter o-layout--align-center">
+                    <div class="c-intro__body o-layout__item ">
+                            <h2 class="c-lead c-lead--xl">
+                                Dashboard
+                            </h2>
+                    </div>
+                    <div class="c-intro__body o-layout__item u-1-of-3-bp3">
+                        <div class="box">
+                            <a href="historiek-temp.html"><img class="afbeelding" src="img/png/Temp.png" alt="temperatuur"></a>
+                            <h1 class="graden js-graden">
+                                24°C
+                            </h1>
+                            <h2 class="temperatuur">
+                                Instellen <br>
+                                temperatuur
+                            </h2>
+                            <input class="gewilde js-waarde" type="number" min=15 value=20 max=30 step=1>
+                            <button class="button3 js-button" type="button">oplsaan</button>
+                            </div>
+                    </div>
+                    <div class="c-intro__body o-layout__item u-1-of-3-bp3">
+                        <div class="box">
+                            <a href="historiek-licht.html"><img class="afbeelding" src="img/png/zon.png" alt="temperatuur"></a>
+                            <h1 class="graden js-licht">
+                                45%
+                            </h1>
+                            <h2 class="temperatuur">
+                                Lichtsterkte
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="c-intro__body o-layout__item u-1-of-3-bp3">
+                        <div class="box">
+                            <a href="historiek-uv.html"><img class="afbeelding" src="img/png/uv.PNG" alt="temperatuur"></a>
+                            <h1 class="graden js-uvI">
+                                240nm
+                            </h1>
+                            <h2 class="temperatuur">
+                                UV-licht
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </body>
+</html>
